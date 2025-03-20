@@ -4,7 +4,7 @@ async function sendVisitorNotification() {
 
     try {
     // Fetch visitor's IP and location data from ip-api.com
-    const response = await fetch('http://ip-api.com/json/?fields=city,country,query');
+    const response = await fetch('https://ip-api.com/json/?fields=city,country,query');
     const data = await response.json();
 
     // Extract location info
