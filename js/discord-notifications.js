@@ -9,11 +9,13 @@ async function sendVisitorNotification() {
       };
   
       // Send the notification to Discord
-      await fetch(webhookUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(message)
-      });
+      if (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
+          await fetch(webhookUrl, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(message)
+          });
+      }
       console.log("Notification sent to Discord!");
     } catch (error) {
       console.error("Error sending notification:", error);
