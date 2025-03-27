@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7HG26C7GR"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-V7HG26C7GR');
@@ -19,13 +20,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="./assets/favicon.ico">
 
-  <meta name="keywords" content="Web3 widgets, blockchain integration, NFT claiming, wallet connect, Thirdweb, Dappify, crypto tools">
+  <meta name="keywords"
+    content="Web3 widgets, blockchain integration, NFT claiming, wallet connect, Thirdweb, Dappify, crypto tools">
   <meta name="author" content="Dappify">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph (Facebook, LinkedIn, etc.) -->
   <meta property="og:title" content="Dappify - Web3 Widgets Made Simple">
-  <meta property="og:description" content="Drop Dappify Web3 widgets anywhere. Instantly add wallet connections, NFT claims, token gating and more, all without code!">
+  <meta property="og:description"
+    content="Drop Dappify Web3 widgets anywhere. Instantly add wallet connections, NFT claims, token gating and more, all without code!">
   <meta property="og:image" content="./assets/dappify-banner.png">
   <meta property="og:url" content="https://dappify.com"> <!-- Replace with your site URL -->
   <meta property="og:type" content="website">
@@ -33,7 +36,8 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Dappify - Web3 Widgets Made Simple">
-  <meta name="twitter:description" content="Drop Dappify Web3 widgets anywhere. Instantly add wallet connections, NFT claims, token gating and more, all without code!">
+  <meta name="twitter:description"
+    content="Drop Dappify Web3 widgets anywhere. Instantly add wallet connections, NFT claims, token gating and more, all without code!">
   <meta name="twitter:image" content="./assets/dappify-banner.png">
   <meta name="twitter:site" content="@DappifyHub"> <!-- Replace with your Twitter handle -->
   <meta name="twitter:creator" content="@DappifyHub"> <!-- Replace with your Twitter handle -->
@@ -62,53 +66,64 @@
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-900 text-white font-sans antialiased">
 
 
-<!-- Hero Section -->
-<header class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-600 via-amber-400 to-purple-600 overflow-hidden">
-  <!-- Logo and Text in Top Left Corner -->
-  <div class="absolute top-4 left-4 z-20 flex items-center">
-    <img src="./assets/dappify-logo.png" alt="Dappify Logo" class="h-10 w-10 mr-2" onerror="this.style.display='none';">
-    <span class="text-gray-100 text-xl font-semibold">Dappify</span>
-  </div>
-
-  <!-- Background Elements -->
-  <div class="absolute inset-0 pointer-events-none">
-    <!-- Animated Logo-Inspired Shapes -->
-    <div class="w-32 md:w-64 h-32 md:h-64 bg-purple-600/10 rounded-lg transform rotate-45 opacity-50 blur-md absolute top-1/4 left-5 md:left-10 animate-float"></div>
-    <div class="w-24 md:w-48 h-24 md:h-48 bg-orange-500/10 rounded-lg transform -rotate-30 opacity-50 blur-md absolute bottom-1/4 right-5 md:right-10 animate-float delay-1000"></div>
-  </div>
-
-  <!-- Content Container -->
-  <div class="container mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between z-10 relative">
-    <!-- Text Content -->
-    <div class="w-full md:w-full lg:w-3/5 text-center md:text-left animate-fade-in mt-12 sm:mt-0">
-      <h1 class="text-4xl sm:text-6xl md:text-8xl mb-6 text-gray-100 font-medium">
-        Drop Dappify Web3<br>widgets anywhere
-      </h1>
-      <h1 class="text-md sm:text-2xl md:text-4xl mb-6 text-gray-100 font-medium">
-        Instantly add wallet connections, NFT claims,<br>
-        token gating and more, all without code!
-      </h1>
-      <a href="#how-it-works" class="inline-block bg-gradient-to-r from-orange-500 to-purple-600 text-white font-semibold py-2 sm:py-3 px-6 sm:px-10 rounded-full hover:from-orange-400 hover:to-purple-500 transition-all animate-fade-in delay-400 text-base sm:text-lg">
-        Get Started Now
-      </a>
+  <!-- Hero Section -->
+  <header
+    class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-600 via-amber-400 to-purple-600 overflow-hidden">
+    <!-- Logo and Text in Top Left Corner -->
+    <div class="absolute top-4 left-4 z-20 flex items-center">
+      <img src="./assets/dappify-logo.png" alt="Dappify Logo" class="h-10 w-10 mr-2"
+        onerror="this.style.display='none';">
+      <span class="text-gray-100 text-xl font-semibold">Dappify</span>
     </div>
 
-    <!-- Images -->
-    <div class="w-full md:w-full lg:w-2/5 mt-8 md:mt-12 lg:mt-0 flex justify-center md:justify-end items-center relative -mr-24">
-      <!-- Mobile Screen GIF (Result) -->
-      <div class="relative z-10 shadow-lg rounded-lg p-4 w-3/5 sm:w-3/5">
-        <img src="./assets/screen.gif" alt="Mobile Web3 login" class="rounded-lg animate-fade-in delay-200 w-full" onerror="this.style.display='none';">
+    <!-- Background Elements -->
+    <div class="absolute inset-0 pointer-events-none">
+      <!-- Animated Logo-Inspired Shapes -->
+      <div
+        class="w-32 md:w-64 h-32 md:h-64 bg-purple-600/10 rounded-lg transform rotate-45 opacity-50 blur-md absolute top-1/4 left-5 md:left-10 animate-float">
       </div>
-      <!-- Editor Image (Code Snippet) - On Top -->
-      <div class="absolute transform -translate-x-10 sm:-translate-x-16 translate-y-36 z-20">
-        <img src="./assets/editor.png" alt="Code snippet in editor" class="w-3/5 sm:w-3/5 shadow-lg rounded-lg animate-fade-in delay-400" onerror="this.style.display='none';">
+      <div
+        class="w-24 md:w-48 h-24 md:h-48 bg-orange-500/10 rounded-lg transform -rotate-30 opacity-50 blur-md absolute bottom-1/4 right-5 md:right-10 animate-float delay-1000">
       </div>
     </div>
-  </div>
-</header>
+
+    <!-- Content Container -->
+    <div class="container mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between z-10 relative">
+      <!-- Text Content -->
+      <div class="w-full md:w-full lg:w-3/5 text-center md:text-left animate-fade-in mt-12 sm:mt-0">
+        <h1 class="text-4xl sm:text-6xl md:text-8xl mb-6 text-gray-100 font-medium">
+          Drop Dappify Web3<br>widgets anywhere
+        </h1>
+        <h1 class="text-md sm:text-2xl md:text-4xl mb-6 text-gray-100 font-medium">
+          Instantly add wallet connections, NFT claims,<br>
+          token gating and more, all without code!
+        </h1>
+        <a href="#how-it-works"
+          class="inline-block bg-gradient-to-r from-orange-500 to-purple-600 text-white font-semibold py-2 sm:py-3 px-6 sm:px-10 rounded-full hover:from-orange-400 hover:to-purple-500 transition-all animate-fade-in delay-400 text-base sm:text-lg">
+          Get Started Now
+        </a>
+      </div>
+
+      <!-- Images -->
+      <div
+        class="w-full md:w-full lg:w-2/5 mt-8 md:mt-12 lg:mt-0 flex justify-center md:justify-end items-center relative -mr-24">
+        <!-- Mobile Screen GIF (Result) -->
+        <div class="relative z-10 shadow-lg rounded-lg p-4 w-3/5 sm:w-3/5">
+          <img src="./assets/screen.gif" alt="Mobile Web3 login" class="rounded-lg animate-fade-in delay-200 w-full"
+            onerror="this.style.display='none';">
+        </div>
+        <!-- Editor Image (Code Snippet) - On Top -->
+        <div class="absolute transform -translate-x-10 sm:-translate-x-16 translate-y-36 z-20">
+          <img src="./assets/editor.png" alt="Code snippet in editor"
+            class="w-3/5 sm:w-3/5 shadow-lg rounded-lg animate-fade-in delay-400" onerror="this.style.display='none';">
+        </div>
+      </div>
+    </div>
+  </header>
 
 
   <!-- Get Started Section -->
@@ -117,46 +132,66 @@
       <h2 class="text-4xl font-bold text-center mb-12">Get Started in Seconds</h2>
 
       <!-- Step 1: Sign Up with Thirdweb -->
-      <div class="mb-12 bg-gradient-to-r from-indigo-900 to-purple-900 p-6 rounded-lg shadow-lg border-l-4 border-indigo-400">
+      <div
+        class="mb-12 bg-gradient-to-r from-indigo-900 to-purple-900 p-6 rounded-lg shadow-lg border-l-4 border-indigo-400">
         <h3 class="text-2xl font-semibold mb-4 text-indigo-200">Before You Begin: Get Your Thirdweb Client ID</h3>
         <p class="text-gray-300 mb-4">
-          Dappify widgets require a <strong>Thirdweb Client ID</strong>. Sign up for a free account on the 
-          <a href="https://thirdweb.com/dashboard" class="text-indigo-300 hover:text-indigo-200" target="_blank">Thirdweb Dashboard</a>, 
+          Dappify widgets require a <strong>Thirdweb Client ID</strong>. Sign up for a free account on the
+          <a href="https://thirdweb.com/dashboard" class="text-indigo-300 hover:text-indigo-200"
+            target="_blank">Thirdweb Dashboard</a>,
           log in with your wallet, and create a new project. This ID is essential for all steps below—grab it first!
         </p>
       </div>
 
       <!-- Prerequisite: Script Import -->
-<div class="mb-12 bg-gray-800 p-6 rounded-lg shadow-lg">
-  <h3 class="text-2xl font-semibold mb-4 text-indigo-300">Step 1: Add the Script</h3>
-  <p class="text-gray-400 mb-4">Copy and paste this script tag just before the closing <code class="font-mono text-purple-400"><span class="bg-purple-500/20 px-1 rounded">&lt;/body&gt;</span></code> tag on your website:</p>
-  <div class="relative">
-    <pre class="bg-gray-900 p-4 rounded-md text-sm font-mono text-gray-200 overflow-x-auto" id="script-code">
-<span class="text-purple-400">&lt;script</span> <span class="text-green-400">src=</span><span class="text-orange-300">"https://unpkg.com/@dappify/thirdweb@0.1.12/dist/widgets.js"</span><span class="text-purple-400">></script></span>
+      <div class="mb-12 bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-4 text-indigo-300">Step 1: Add the Library</h3>
+        <p class="text-gray-400 mb-4">Copy and paste this script tag just before the closing <code
+            class="font-mono text-purple-400"><span class="bg-purple-500/20 px-1 rounded">&lt;/body&gt;</span></code>
+          tag on your website:</p>
+        <div class="relative">
+          <pre class="bg-gray-900 p-4 rounded-md text-sm font-mono text-gray-200 overflow-x-auto" id="script-code">
+<span class="text-purple-400">&lt;script</span> <span class="text-green-400">src=</span><span class="text-orange-300">"https://cdn.jsdelivr.net/npm/@dappify/thirdweb@latest/dist/widgets.js"</span><span class="text-purple-400">></script></span>
     </pre>
-    <button class="absolute top-4 right-4 hidden lg:flex items-center text-gray-400 hover:text-gray-200 focus:outline-none" 
-    onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText).catch(err => console.error('Failed to copy: ', err))"
-    title="Copy to clipboard">
-<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-</svg>
-<span class="text-sm">Copy to Clipboard</span>
-</button>
-  </div>
-  <p class="text-gray-400 mt-4">This enables all Dappify widgets on your page.</p>
-</div>
+          <button
+            class="absolute top-4 right-4 hidden lg:flex items-center text-gray-400 hover:text-gray-200 focus:outline-none"
+            onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText).catch(err => console.error('Failed to copy: ', err))"
+            title="Copy to clipboard">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <span class="text-sm">Copy to Clipboard</span>
+          </button>
+        </div>
+        <p class="text-gray-400 mt-4">This enables all Dappify widgets on your page.</p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-start gap-2 sm:gap-3 p-2 mt-4">
+
+          <img src="https://github.com/dappify-web3/widgets/actions/workflows/deploy.yml/badge.svg"
+            alt="Deploy Workflow Status" />
+          <a href="https://www.npmjs.com/package/@dappify/thirdweb">
+            <img src="https://img.shields.io/npm/v/@dappify/thirdweb.svg" alt="Thirdweb Widgets Library Version" />
+          </a>
+        </div>
+
+      </div>
 
       <!-- Widget Examples -->
-      <div class="space-y-12" >
+      <div class="space-y-12">
 
 
         <!-- Connect Button Example -->
         <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
           <h3 class="text-2xl font-semibold mb-4 text-indigo-300">Connect Wallet Widget</h3>
-          <p class="text-gray-400 mb-4">Add a button to connect wallets using this code. Replace <code class="font-mono text-purple-400">"your-client-id"</code> with your Thirdweb Client ID from the prerequisite above:</p>
+          <p class="text-gray-400 mb-4">Add a button to connect wallets using this code. Replace <code
+              class="font-mono text-purple-400">"your-client-id"</code> with your Thirdweb Client ID from the
+            prerequisite above:</p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="relative">
-              <pre class="bg-gray-900 p-4 rounded-md text-sm font-mono text-gray-200 overflow-x-auto" id="ConnectButtonCode">
+              <pre class="bg-gray-900 p-4 rounded-md text-sm font-mono text-gray-200 overflow-x-auto"
+                id="ConnectButtonCode">
 <span class="text-purple-400">&lt;div</span> <span class="text-green-400">id=</span><span class="text-orange-300">"connect-button-hero"</span>
      <span class="text-green-400">data-widget=</span><span class="text-orange-300">"ConnectButton"</span>
      <span class="text-green-400">data-client-id=</span><span class="text-orange-300">"e9bae73377d43e42aea12c0d07474163"</span>
@@ -165,86 +200,103 @@
      <span class="text-green-400">data-locale=</span><span class="text-orange-300">"en_US"</span><span class="text-purple-400">&gt;&lt;/div&gt;</span>
               </pre>
 
-          <button class="absolute top-4 right-4 hidden lg:flex items-center text-gray-400 hover:text-gray-200 focus:outline-none" 
-              onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText).catch(err => console.error('Failed to copy: ', err))"
-              title="Copy to clipboard">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-            </svg>
-            <span class="text-sm">Copy to Clipboard</span>
-          </button>
-        </div>
-        <!-- Demo -->
-        <div class="flex items-center justify-center">
-          <div id="connect-button-demo" 
-                data-widget="ConnectButton"
-                data-client-id="e9bae73377d43e42aea12c0d07474163"
-                data-theme="dark"
-                data-chains="43113,1,137"
+              <button
+                class="absolute top-4 right-4 hidden lg:flex items-center text-gray-400 hover:text-gray-200 focus:outline-none"
+                onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText).catch(err => console.error('Failed to copy: ', err))"
+                title="Copy to clipboard">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+                <span class="text-sm">Copy to Clipboard</span>
+              </button>
+            </div>
+            <!-- Demo -->
+            <div class="flex items-center justify-center">
+              <div id="connect-button-demo" data-widget="ConnectButton"
+                data-client-id="e9bae73377d43e42aea12c0d07474163" data-theme="dark" data-chains="43113,1,137"
                 data-locale="en_US">
+              </div>
+            </div>
+          </div>
+          <!-- Properties Documentation -->
+          <div class="mt-6">
+            <h4 class="text-xl font-semibold text-gray-200 mb-2">Properties</h4>
+            <div class="overflow-x-auto">
+              <table class="w-full text-gray-400 text-xs sm:text-sm border-separate border-spacing-2">
+                <thead>
+                  <tr class="text-left block md:table-row">
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Attribute</th>
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Requirement</th>
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Description</th>
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Possible Values</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-widget</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Specifies the widget type.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code>"ConnectButton"</code> (fixed value)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-client-id</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Your unique Thirdweb Client ID.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">String (get from <a
+                        href="https://thirdweb.com/dashboard" class="text-indigo-400 hover:text-indigo-300"
+                        target="_blank">Thirdweb Dashboard</a>)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-chains</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Comma-separated chain IDs to support.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">E.g., <code>"43113,1,137"</code> (see <a
+                        href="https://thirdweb.com/chainlist" class="text-indigo-400 hover:text-indigo-300"
+                        target="_blank">Supported chains</a>)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-theme</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Sets the button’s visual theme.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code>"dark"</code>, <code>"light"</code>
+                      (default: <code>"light"</code>)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-locale</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Sets the language for the widget.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Default <code>"en_US"</code> (see <a
+                        href="https://portal.thirdweb.com/references/typescript/v5/LocaleId"
+                        class="text-indigo-400 hover:text-indigo-300" target="_blank">Supported languages</a>)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="text-gray-400 mt-4">
+              For more details, see the <a href="https://portal.thirdweb.com/react/v5/components/ConnectButton"
+                class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb ConnectButton Docs</a> or
+              <a href="https://playcode.io/2301589" class="text-indigo-400 hover:text-indigo-300" target="_blank">view a
+                live sample on Playground</a>.
+            </p>
           </div>
         </div>
-      </div>
-      <!-- Properties Documentation -->
-      <div class="mt-6">
-        <h4 class="text-xl font-semibold text-gray-200 mb-2">Properties</h4>
-        <div class="overflow-x-auto">
-          <table class="w-full text-gray-400 text-xs sm:text-sm border-separate border-spacing-2">
-            <thead>
-              <tr class="text-left block md:table-row">
-                <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Attribute</th>
-                <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Requirement</th>
-                <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Description</th>
-                <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Possible Values</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="block md:table-row">
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-widget</code></td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Specifies the widget type.</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code>"ConnectButton"</code> (fixed value)</td>
-              </tr>
-              <tr class="block md:table-row">
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-client-id</code></td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Your unique Thirdweb Client ID.</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">String (get from <a href="https://thirdweb.com/dashboard" class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb Dashboard</a>)</td>
-              </tr>
-              <tr class="block md:table-row">
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-chains</code></td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Comma-separated chain IDs to support.</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">E.g., <code>"43113,1,137"</code> (see <a href="https://thirdweb.com/chainlist" class="text-indigo-400 hover:text-indigo-300" target="_blank">Supported chains</a>)</td>
-              </tr>
-              <tr class="block md:table-row">
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-theme</code></td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Sets the button’s visual theme.</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code>"dark"</code>, <code>"light"</code> (default: <code>"light"</code>)</td>
-              </tr>
-              <tr class="block md:table-row">
-                <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-locale</code></td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Sets the language for the widget.</td>
-                <td class="block md:table-cell py-2 px-2 md:px-0">Default <code>"en_US"</code> (see <a href="https://portal.thirdweb.com/references/typescript/v5/LocaleId" class="text-indigo-400 hover:text-indigo-300" target="_blank">Supported languages</a>)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="text-gray-400 mt-4">
-          For more details, see the <a href="https://portal.thirdweb.com/react/v5/components/ConnectButton" class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb ConnectButton Docs</a> or 
-          <a href="https://playcode.io/2301589" class="text-indigo-400 hover:text-indigo-300" target="_blank">view a live sample on Playground</a>.
-        </p>
-      </div>
-    </div>
 
-    <!-- Claim Button Example -->
-    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-      <h3 class="text-2xl font-semibold mb-4 text-indigo-300">Claim NFT Widget</h3>
-      <p class="text-gray-400 mb-4">Add an NFT claim button with this code. Replace <code class="font-mono text-purple-400">"your-client-id"</code> with your Thirdweb Client ID from the prerequisite above:</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <pre class="bg-gray-900 p-4 rounded-md text-sm font-mono text-gray-200  relative whitespace-pre-wrap break-normal overflow-x-auto">
+        <!-- Claim Button Example -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4 text-indigo-300">Claim NFT Widget</h3>
+          <p class="text-gray-400 mb-4">Add an NFT claim button with this code. Replace <code
+              class="font-mono text-purple-400">"your-client-id"</code> with your Thirdweb Client ID from the
+            prerequisite above:</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <pre
+              class="bg-gray-900 p-4 rounded-md text-sm font-mono text-gray-200  relative whitespace-pre-wrap break-normal overflow-x-auto">
 <span class="text-purple-400">&lt;div</span> <span class="text-green-400">id=</span><span class="text-orange-300">"claim-button-main"</span>
   <span class="text-green-400">data-widget=</span><span class="text-orange-300">"ClaimButton"</span>
   <span class="text-green-400">data-client-id=</span><span class="text-orange-300">"e9bae73377d43e42aea12c0d07474163"</span>
@@ -262,16 +314,137 @@
 <span class="text-sm">Copy to Clipboard</span>
 </button>        
 </pre>
-        <div class="flex items-center justify-center">
-          <div  id="claim-button-demo" 
-                data-widget="ClaimButton"
-                data-client-id="e9bae73377d43e42aea12c0d07474163"
-                data-chains="43113"
-                data-theme="dark"
-                data-label="🔥Mint NFT!"
-                data-contract-address="0xeF155b056299Ba3e98987f37a2CB5518DE0a98F3"
-                data-type="ERC721"
-                data-quantity=1>
+            <div class="flex items-center justify-center">
+              <div id="claim-button-demo" data-widget="ClaimButton" data-client-id="e9bae73377d43e42aea12c0d07474163"
+                data-chains="43113" data-theme="dark" data-label="🔥Mint NFT!"
+                data-contract-address="0xeF155b056299Ba3e98987f37a2CB5518DE0a98F3" data-type="ERC721" data-quantity=1>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+          <!-- Properties Documentation -->
+          <div class="mt-6">
+            <h4 class="text-xl font-semibold text-gray-200 mb-2">Properties</h4>
+            <!-- Prerequisite Notice -->
+            <div class="mb-4 p-4 bg-gray-700 rounded-md">
+              <p class="text-gray-300 text-sm">
+                <strong>Prerequisite:</strong> The Claim Button requires a connected wallet to be active. Ensure you’ve
+                added the <code class="font-mono text-purple-400">ConnectButton</code> widget first and that the user is
+                authenticated. Without a connected wallet, the button will remain disabled.
+              </p>
+              <p class="text-gray-300 text-sm mt-2">
+                This button is used to claim tokens (NFT or ERC20) from a Thirdweb Drop contract. There are three types
+                of Drop contracts:
+                <strong>NFT Drop (DropERC721)</strong>, <strong>Edition Drop (DropERC1155)</strong>, and <strong>Token
+                  Drop (DropERC20)</strong>.
+                Learn more at <a href="https://thirdweb.com/explore/drops" class="text-indigo-400 hover:text-indigo-300"
+                  target="_blank">Thirdweb Drops</a>.
+              </p>
+              <p class="text-gray-300 text-sm mt-2">
+                <strong>Note:</strong> This button only works with Thirdweb Drop contracts. For custom contracts, use
+                the <code class="font-mono text-purple-400">TransactionButton (Coming soon)</code> instead.
+              </p>
+            </div>
+            <!-- Properties Table -->
+            <div class="overflow-x-auto">
+              <table class="w-full text-gray-400 text-xs sm:text-sm border-separate border-spacing-2">
+                <thead>
+                  <tr class="text-left block md:table-row">
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Attribute</th>
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Requirement</th>
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Description</th>
+                    <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Possible Values</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-widget</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Specifies the widget type.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code>"ClaimButton"</code> (fixed value)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-client-id</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Your unique Thirdweb Client ID.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">String (get from <a
+                        href="https://thirdweb.com/dashboard" class="text-indigo-400 hover:text-indigo-300"
+                        target="_blank">Thirdweb Dashboard</a>)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-contract-address</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">The smart contract address for claiming.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Ethereum address (e.g., <code>"0x..."</code>)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-type</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Token standard of the contract.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code>"ERC721"</code>, <code>"ERC1155"</code>,
+                      <code>"ERC20"</code>
+                    </td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-chains</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Comma-separated chain IDs.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">E.g., <code>"43113"</code> (see <a
+                        href="https://thirdweb.com/chainlist" class="text-indigo-400 hover:text-indigo-300"
+                        target="_blank">Supported chains</a>)</td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-label</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Custom button text.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">String (e.g., <code>"🔥Mint NFT!"</code>, default:
+                      <code>"Claim"</code>)
+                    </td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-quantity</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Number of items to claim.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Integer (e.g., <code>"1"</code>, default:
+                      <code>"1"</code>)
+                    </td>
+                  </tr>
+                  <tr class="block md:table-row">
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code
+                        class="font-mono text-purple-400">data-theme</code></td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0">Sets the button’s visual theme.</td>
+                    <td class="block md:table-cell py-2 px-2 md:px-0"><code>"dark"</code>, <code>"light"</code>
+                      (default: <code>"light"</code>)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="text-gray-400 mt-4">
+              For more details, see the <a href="https://portal.thirdweb.com/react/v5/ClaimButton"
+                class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb ClaimButton Docs</a> or
+              <a href="https://playcode.io/2301589" class="text-indigo-400 hover:text-indigo-300" target="_blank">view a
+                live sample on Playground</a>.
+            </p>
           </div>
         </div>
 
@@ -279,120 +452,20 @@
 
 
 
-
-
-
-
-        
       </div>
-
-
-      
-<!-- Properties Documentation -->
-<div class="mt-6">
-  <h4 class="text-xl font-semibold text-gray-200 mb-2">Properties</h4>
-  <!-- Prerequisite Notice -->
-  <div class="mb-4 p-4 bg-gray-700 rounded-md">
-    <p class="text-gray-300 text-sm">
-      <strong>Prerequisite:</strong> The Claim Button requires a connected wallet to be active. Ensure you’ve added the <code class="font-mono text-purple-400">ConnectButton</code> widget first and that the user is authenticated. Without a connected wallet, the button will remain disabled.
-    </p>
-    <p class="text-gray-300 text-sm mt-2">
-      This button is used to claim tokens (NFT or ERC20) from a Thirdweb Drop contract. There are three types of Drop contracts: 
-      <strong>NFT Drop (DropERC721)</strong>, <strong>Edition Drop (DropERC1155)</strong>, and <strong>Token Drop (DropERC20)</strong>. 
-      Learn more at <a href="https://thirdweb.com/explore/drops" class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb Drops</a>.
-    </p>
-    <p class="text-gray-300 text-sm mt-2">
-      <strong>Note:</strong> This button only works with Thirdweb Drop contracts. For custom contracts, use the <code class="font-mono text-purple-400">TransactionButton (Coming soon)</code> instead.
-    </p>
-  </div>
-  <!-- Properties Table -->
-  <div class="overflow-x-auto">
-    <table class="w-full text-gray-400 text-xs sm:text-sm border-separate border-spacing-2">
-      <thead>
-        <tr class="text-left block md:table-row">
-          <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Attribute</th>
-          <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Requirement</th>
-          <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Description</th>
-          <th class="block md:table-cell font-semibold text-gray-200 py-2 px-2 md:px-0">Possible Values</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-widget</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Specifies the widget type.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code>"ClaimButton"</code> (fixed value)</td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-client-id</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Your unique Thirdweb Client ID.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">String (get from <a href="https://thirdweb.com/dashboard" class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb Dashboard</a>)</td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-contract-address</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">The smart contract address for claiming.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Ethereum address (e.g., <code>"0x..."</code>)</td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-type</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Token standard of the contract.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code>"ERC721"</code>, <code>"ERC1155"</code>, <code>"ERC20"</code></td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-chains</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Mandatory</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Comma-separated chain IDs.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">E.g., <code>"43113"</code> (see <a href="https://thirdweb.com/chainlist" class="text-indigo-400 hover:text-indigo-300" target="_blank">Supported chains</a>)</td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-label</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Custom button text.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">String (e.g., <code>"🔥Mint NFT!"</code>, default: <code>"Claim"</code>)</td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-quantity</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Number of items to claim.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Integer (e.g., <code>"1"</code>, default: <code>"1"</code>)</td>
-        </tr>
-        <tr class="block md:table-row">
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code class="font-mono text-purple-400">data-theme</code></td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Optional</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0">Sets the button’s visual theme.</td>
-          <td class="block md:table-cell py-2 px-2 md:px-0"><code>"dark"</code>, <code>"light"</code> (default: <code>"light"</code>)</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="text-gray-400 mt-4">
-    For more details, see the <a href="https://portal.thirdweb.com/react/v5/ClaimButton" class="text-indigo-400 hover:text-indigo-300" target="_blank">Thirdweb ClaimButton Docs</a> or 
-    <a href="https://playcode.io/2301589" class="text-indigo-400 hover:text-indigo-300" target="_blank">view a live sample on Playground</a>.
-  </p>
-</div>
-</div>
-
-
 
 
 
     </div>
-
-
-
-  </div>
-</div>
-</section>
+    </div>
+  </section>
 
   <!-- Claim Section -->
   <!-- <section class="py-20 bg-gray-800">
     <div class="max-w-4xl mx-auto px-6 text-center">
       <h2 class="text-4xl font-bold mb-6">Claim Your Free NFT</h2>
       <p class="text-lg text-gray-400 mb-8">Experience Dappify’s power with a test NFT claim.</p> -->
-      <!-- <div id="claim-button-main" 
+  <!-- <div id="claim-button-main" 
            data-widget="ClaimButton"
            data-client-id="e9bae73377d43e42aea12c0d07474163"
            data-chains="43113"
@@ -401,7 +474,7 @@
            data-claim-quantity="1"
            class="inline-block">
       </div> -->
-    <!-- </div>
+  <!-- </div>
   </section> -->
 
   <!-- Footer -->
@@ -415,20 +488,28 @@
   </footer>
 
   <!-- Dappify Widgets Script (Prerequisite) -->
-  <script src="https://unpkg.com/@dappify/thirdweb@0.1.12/dist/widgets.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@dappify/thirdweb@latest/dist/widgets.js"></script>
 
   <!-- Custom Animation -->
   <style>
     html {
       scroll-behavior: smooth;
     }
+
     @keyframes fade-in {
-      from { opacity: 0; }
-      to { opacity: 1; }
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
     }
+
     .animate-fade-in {
       animation: fade-in 1s ease-in-out;
     }
   </style>
 </body>
+
 </html>
